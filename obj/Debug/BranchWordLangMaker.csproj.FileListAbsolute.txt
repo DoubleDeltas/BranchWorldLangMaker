@@ -18,4 +18,4 @@ C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\Branch
 C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\bin\Debug\BranchWordLangMaker.exe
 C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\bin\Debug\BranchWordLangMaker.pdb
 C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.FormMain.resources
-C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.SaveForm.resources
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.FormEdit.resources

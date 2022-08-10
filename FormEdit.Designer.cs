@@ -1,7 +1,7 @@
 ﻿
 namespace BranchWordLangMaker
 {
-    partial class SaveForm
+    partial class FormEdit
     {
         /// <summary>
         /// Required designer variable.
@@ -108,7 +108,7 @@ namespace BranchWordLangMaker
             this.bt_cancel.Text = "취소";
             this.bt_cancel.UseVisualStyleBackColor = true;
             // 
-            // SaveForm
+            // FormEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -121,8 +121,8 @@ namespace BranchWordLangMaker
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tb_origin);
             this.Controls.Add(this.label1);
-            this.Name = "SaveForm";
-            this.Text = "단어 저장";
+            this.Name = "FormEdit";
+            this.Text = "단어 편집";
             this.ResumeLayout(false);
             this.PerformLayout();
 

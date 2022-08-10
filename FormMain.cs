@@ -12,6 +12,8 @@ namespace BranchWordLangMaker
 {
     public partial class FormMain : Form
     {
+        public const string VERSION = "0.2.0";
+
         WordDictionary dict;
         WordCreator creator;
 
@@ -41,6 +43,8 @@ namespace BranchWordLangMaker
                 list_pronunciation.Items.Add(triplet.Pronunciation);
                 list_meaning.Items.Add(triplet.Meaning);
             }
+
+            lb_pgmInfo.Text = "가지세계 언어 생성기 v" + VERSION + " | Made by DoubleDeltas";
         }
 
         private void RefreshList(List<WordTriplet> list)
@@ -101,10 +105,59 @@ namespace BranchWordLangMaker
 
         private void bt_save_Click(object sender, EventArgs e)
         {
-            SaveForm dialog = new SaveForm(tb_word.Text);
+            FormEdit dialog = new FormEdit(tb_word.Text);
             if (dialog.ShowDialog() == DialogResult.OK)
             {
                 dict.Add(dialog.Word, dialog.Pronunciation, dialog.Meaning);
+                RefreshList();
+            }
+        }
+
+        private void bt_edit_Click(object sender, EventArgs e)
+        {
+            if (list_origin.SelectedIndex == -1)
+            {
+                MessageBox.Show(
+                    "수정할 단어를 선택해주세요!",
+                    "오류!",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+                return;
+            }
+
+            FormEdit dialog = new FormEdit(
+                list_origin.SelectedItem as string,
+                list_pronunciation.SelectedItem as string,
+                list_meaning.SelectedItem as string);
+
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                dict.Edit(list_origin.SelectedIndex, dialog.Word, dialog.Pronunciation, dialog.Meaning);
+                RefreshList();
+            }
+        }
+
+        private void bt_delete_Click(object sender, EventArgs e)
+        {
+            if (list_origin.SelectedIndex == -1)
+            {
+                MessageBox.Show(
+                    "삭제할 단어를 선택해주세요!",
+                    "오류!",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+                return;
+            }
+
+            DialogResult res = MessageBox.Show(
+                    "정말 단어 [ " + list_origin.SelectedItem + " ]을 삭제하시겠습니까?",
+                    "단어 삭제?",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Exclamation);
+
+            if (res == DialogResult.Yes)
+            {
+                dict.Delete(list_origin.SelectedIndex);
                 RefreshList();
             }
         }

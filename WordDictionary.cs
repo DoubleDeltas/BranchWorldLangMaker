@@ -67,7 +67,7 @@ namespace BranchWordLangMaker
             }
             catch (Exception ex)
             {
-                MessageBox.Show("오류가 발생했습니다!\n\n" + ex.StackTrace);
+                MessageBox.Show("오류가 발생했습니다!\n\n" + ex.Message);
             }
         }
 
@@ -76,5 +76,41 @@ namespace BranchWordLangMaker
             Add(new WordTriplet(word, pronunciation, meaning));
         }
 
+        public void Edit(int lineIndex, WordTriplet triplet)
+        {
+            Item[lineIndex] = triplet;
+
+            try
+            {
+                string[] lines = File.ReadAllLines(FILE_PATH);
+                lines[lineIndex] = triplet.Word + ' ' + triplet.Pronunciation + ' ' + triplet.Meaning;
+                File.WriteAllLines(FILE_PATH, lines);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("오류가 발생했습니다!\n\n" + ex.Message);
+            }
+        }
+
+        public void Edit(int lineIndex, string word, string pronunciation, string meaning)
+        {
+            Edit(lineIndex, new WordTriplet(word, pronunciation, meaning));
+        }
+
+        public void Delete(int lineIndex)
+        {
+            Item.RemoveAt(lineIndex);
+
+            try
+            {
+                List<string> lineList = new List<string>(File.ReadAllLines(FILE_PATH));
+                lineList.RemoveAt(lineIndex);
+                File.WriteAllLines(FILE_PATH, lineList);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("오류가 발생했습니다!\n\n" + ex.Message);
+            }
+        }
     }
 }

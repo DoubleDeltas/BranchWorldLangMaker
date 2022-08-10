@@ -40,7 +40,9 @@ namespace BranchWordLangMaker
             this.list_origin = new System.Windows.Forms.ListBox();
             this.bt_clear = new System.Windows.Forms.Button();
             this.tb_keyword = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lb_pgmInfo = new System.Windows.Forms.Label();
+            this.bt_edit = new System.Windows.Forms.Button();
+            this.bt_delete = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
@@ -97,6 +99,8 @@ namespace BranchWordLangMaker
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.bt_delete);
+            this.groupBox3.Controls.Add(this.bt_edit);
             this.groupBox3.Controls.Add(this.list_pronunciation);
             this.groupBox3.Controls.Add(this.list_meaning);
             this.groupBox3.Controls.Add(this.list_origin);
@@ -116,7 +120,7 @@ namespace BranchWordLangMaker
             this.list_pronunciation.ItemHeight = 20;
             this.list_pronunciation.Location = new System.Drawing.Point(103, 57);
             this.list_pronunciation.Name = "list_pronunciation";
-            this.list_pronunciation.Size = new System.Drawing.Size(91, 364);
+            this.list_pronunciation.Size = new System.Drawing.Size(91, 324);
             this.list_pronunciation.TabIndex = 8;
             this.list_pronunciation.SelectedIndexChanged += new System.EventHandler(this.List_SelectedIndexChanged);
             // 
@@ -127,7 +131,7 @@ namespace BranchWordLangMaker
             this.list_meaning.ItemHeight = 20;
             this.list_meaning.Location = new System.Drawing.Point(200, 57);
             this.list_meaning.Name = "list_meaning";
-            this.list_meaning.Size = new System.Drawing.Size(162, 364);
+            this.list_meaning.Size = new System.Drawing.Size(162, 324);
             this.list_meaning.TabIndex = 7;
             this.list_meaning.SelectedIndexChanged += new System.EventHandler(this.List_SelectedIndexChanged);
             // 
@@ -138,7 +142,7 @@ namespace BranchWordLangMaker
             this.list_origin.ItemHeight = 20;
             this.list_origin.Location = new System.Drawing.Point(6, 57);
             this.list_origin.Name = "list_origin";
-            this.list_origin.Size = new System.Drawing.Size(91, 364);
+            this.list_origin.Size = new System.Drawing.Size(91, 324);
             this.list_origin.TabIndex = 6;
             this.list_origin.SelectedIndexChanged += new System.EventHandler(this.List_SelectedIndexChanged);
             // 
@@ -161,23 +165,43 @@ namespace BranchWordLangMaker
             this.tb_keyword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_keyword.TextChanged += new System.EventHandler(this.tb_keyword_TextChanged);
             // 
-            // label1
+            // lb_pgmInfo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("굴림", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.ForeColor = System.Drawing.Color.Silver;
-            this.label1.Location = new System.Drawing.Point(12, 426);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(299, 12);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "가지세계 언어 생성기 v0.1.0 | Made by DoubleDeltas";
+            this.lb_pgmInfo.AutoSize = true;
+            this.lb_pgmInfo.Font = new System.Drawing.Font("굴림", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lb_pgmInfo.ForeColor = System.Drawing.Color.Silver;
+            this.lb_pgmInfo.Location = new System.Drawing.Point(12, 426);
+            this.lb_pgmInfo.Name = "lb_pgmInfo";
+            this.lb_pgmInfo.Size = new System.Drawing.Size(289, 12);
+            this.lb_pgmInfo.TabIndex = 2;
+            this.lb_pgmInfo.Text = "가지세계 언어 생성기 v0.2 | Made by DoubleDeltas";
+            // 
+            // bt_edit
+            // 
+            this.bt_edit.Location = new System.Drawing.Point(170, 387);
+            this.bt_edit.Name = "bt_edit";
+            this.bt_edit.Size = new System.Drawing.Size(93, 30);
+            this.bt_edit.TabIndex = 5;
+            this.bt_edit.Text = "수정";
+            this.bt_edit.UseVisualStyleBackColor = true;
+            this.bt_edit.Click += new System.EventHandler(this.bt_edit_Click);
+            // 
+            // bt_delete
+            // 
+            this.bt_delete.Location = new System.Drawing.Point(269, 387);
+            this.bt_delete.Name = "bt_delete";
+            this.bt_delete.Size = new System.Drawing.Size(93, 30);
+            this.bt_delete.TabIndex = 5;
+            this.bt_delete.Text = "삭제";
+            this.bt_delete.UseVisualStyleBackColor = true;
+            this.bt_delete.Click += new System.EventHandler(this.bt_delete_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lb_pgmInfo);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -205,8 +229,10 @@ namespace BranchWordLangMaker
         private System.Windows.Forms.ListBox list_origin;
         private System.Windows.Forms.Button bt_clear;
         private System.Windows.Forms.TextBox tb_keyword;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lb_pgmInfo;
         private System.Windows.Forms.ListBox list_pronunciation;
+        private System.Windows.Forms.Button bt_delete;
+        private System.Windows.Forms.Button bt_edit;
     }
 }
 

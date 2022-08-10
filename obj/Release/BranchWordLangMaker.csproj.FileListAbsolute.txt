@@ -3,9 +3,9 @@ C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\Branch
 C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\bin\Release\BranchWordLangMaker.pdb
 C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Release\BranchWordLangMaker.csproj.AssemblyReference.cache
 C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Release\BranchWordLangMaker.FormMain.resources
-C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Release\BranchWordLangMaker.SaveForm.resources
 C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Release\BranchWordLangMaker.Properties.Resources.resources
 C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Release\BranchWordLangMaker.csproj.GenerateResource.cache
 C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Release\BranchWordLangMaker.csproj.CoreCompileInputs.cache
 C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Release\BranchWordLangMaker.exe
 C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Release\BranchWordLangMaker.pdb
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Release\BranchWordLangMaker.FormEdit.resources

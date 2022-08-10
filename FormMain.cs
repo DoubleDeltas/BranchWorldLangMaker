@@ -12,7 +12,7 @@ namespace BranchWordLangMaker
 {
     public partial class FormMain : Form
     {
-        public const string VERSION = "0.2.0";
+        public const string VERSION = "0.3.0";
 
         WordDictionary dict;
         WordCreator creator;
@@ -160,6 +160,20 @@ namespace BranchWordLangMaker
                 dict.Delete(list_origin.SelectedIndex);
                 RefreshList();
             }
+        }
+
+        private void SpecialCharacterButton_click(object sender, EventArgs e)
+        {
+            int cursor;
+            cursor = tb_word.SelectionStart;
+
+            tb_word.Text = tb_word.Text.Substring(0, cursor)
+                + (sender as Button).Text
+                + tb_word.Text.Substring(cursor);
+
+            tb_word.Focus();
+            tb_word.SelectionStart = cursor + 1;
+            tb_word.SelectionLength = 0;
         }
     }
 }

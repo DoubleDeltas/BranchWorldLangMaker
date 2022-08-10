@@ -1,0 +1,21 @@
+C:\Users\thesm\source\repos\BranchWordLangMaker\BranchWordLangMaker\bin\Debug\BranchWordLangMaker.exe.config
+C:\Users\thesm\source\repos\BranchWordLangMaker\BranchWordLangMaker\bin\Debug\BranchWordLangMaker.exe
+C:\Users\thesm\source\repos\BranchWordLangMaker\BranchWordLangMaker\bin\Debug\BranchWordLangMaker.pdb
+C:\Users\thesm\source\repos\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.csproj.AssemblyReference.cache
+C:\Users\thesm\source\repos\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.Form1.resources
+C:\Users\thesm\source\repos\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.Properties.Resources.resources
+C:\Users\thesm\source\repos\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.csproj.GenerateResource.cache
+C:\Users\thesm\source\repos\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.csproj.CoreCompileInputs.cache
+C:\Users\thesm\source\repos\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.exe
+C:\Users\thesm\source\repos\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.pdb
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.csproj.AssemblyReference.cache
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.Properties.Resources.resources
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.csproj.GenerateResource.cache
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.csproj.CoreCompileInputs.cache
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.exe
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.pdb
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\bin\Debug\BranchWordLangMaker.exe.config
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\bin\Debug\BranchWordLangMaker.exe
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\bin\Debug\BranchWordLangMaker.pdb
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.FormMain.resources
+C:\Users\thesm\OneDrive\바탕 화면\내가만든거\BranchWordLangMaker\BranchWordLangMaker\obj\Debug\BranchWordLangMaker.SaveForm.resources

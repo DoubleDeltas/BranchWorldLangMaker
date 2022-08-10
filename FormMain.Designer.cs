@@ -1622,9 +1622,9 @@ namespace BranchWordLangMaker
             this.lb_pgmInfo.ForeColor = System.Drawing.Color.Silver;
             this.lb_pgmInfo.Location = new System.Drawing.Point(12, 426);
             this.lb_pgmInfo.Name = "lb_pgmInfo";
-            this.lb_pgmInfo.Size = new System.Drawing.Size(289, 12);
+            this.lb_pgmInfo.Size = new System.Drawing.Size(338, 12);
             this.lb_pgmInfo.TabIndex = 2;
-            this.lb_pgmInfo.Text = "가지세계 언어 생성기 v0.2 | Made by DoubleDeltas";
+            this.lb_pgmInfo.Text = "가지세계 언어 생성기 v{VERSION} | Made by DoubleDeltas";
             // 
             // FormMain
             // 

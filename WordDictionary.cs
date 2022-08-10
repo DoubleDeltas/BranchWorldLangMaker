@@ -43,8 +43,18 @@ namespace BranchWordLangMaker
                 {
                     if (line.TrimEnd() == "")
                         continue;
+
                     string[] words = line.Split(' ');
-                    Item.Add(new WordTriplet(words[0], words[1], words[2]));
+
+                    string rest = "";
+                    for (int i=2; i < words.Length; i++)
+                    {
+                        rest += words[i];
+                        if (i != words.Length - 1)
+                            rest += ' ';
+                    }
+
+                    Item.Add(new WordTriplet(words[0], words[1], rest));
                 }
             }
             catch (Exception ex)

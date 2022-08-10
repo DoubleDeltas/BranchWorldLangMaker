@@ -34,44 +34,74 @@ namespace BranchWordLangMaker
             this.bt_create = new System.Windows.Forms.Button();
             this.tb_word = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.bt_delete = new System.Windows.Forms.Button();
-            this.bt_edit = new System.Windows.Forms.Button();
-            this.list_pronunciation = new System.Windows.Forms.ListBox();
-            this.list_meaning = new System.Windows.Forms.ListBox();
-            this.list_origin = new System.Windows.Forms.ListBox();
-            this.bt_clear = new System.Windows.Forms.Button();
-            this.tb_keyword = new System.Windows.Forms.TextBox();
-            this.lb_pgmInfo = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
+            this.button108 = new System.Windows.Forms.Button();
+            this.button107 = new System.Windows.Forms.Button();
+            this.button109 = new System.Windows.Forms.Button();
+            this.button106 = new System.Windows.Forms.Button();
+            this.button94 = new System.Windows.Forms.Button();
+            this.button95 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button105 = new System.Windows.Forms.Button();
+            this.button62 = new System.Windows.Forms.Button();
+            this.button100 = new System.Windows.Forms.Button();
+            this.button63 = new System.Windows.Forms.Button();
+            this.button99 = new System.Windows.Forms.Button();
+            this.button89 = new System.Windows.Forms.Button();
+            this.button104 = new System.Windows.Forms.Button();
+            this.button64 = new System.Windows.Forms.Button();
+            this.button103 = new System.Windows.Forms.Button();
+            this.button90 = new System.Windows.Forms.Button();
+            this.button96 = new System.Windows.Forms.Button();
+            this.button65 = new System.Windows.Forms.Button();
+            this.button98 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button97 = new System.Windows.Forms.Button();
+            this.button66 = new System.Windows.Forms.Button();
+            this.button102 = new System.Windows.Forms.Button();
+            this.button88 = new System.Windows.Forms.Button();
+            this.button101 = new System.Windows.Forms.Button();
+            this.button84 = new System.Windows.Forms.Button();
+            this.button91 = new System.Windows.Forms.Button();
+            this.button67 = new System.Windows.Forms.Button();
+            this.button87 = new System.Windows.Forms.Button();
+            this.button68 = new System.Windows.Forms.Button();
+            this.button46 = new System.Windows.Forms.Button();
+            this.button69 = new System.Windows.Forms.Button();
+            this.button92 = new System.Windows.Forms.Button();
+            this.button79 = new System.Windows.Forms.Button();
+            this.button86 = new System.Windows.Forms.Button();
+            this.button70 = new System.Windows.Forms.Button();
+            this.button93 = new System.Windows.Forms.Button();
+            this.button83 = new System.Windows.Forms.Button();
+            this.button61 = new System.Windows.Forms.Button();
+            this.button71 = new System.Windows.Forms.Button();
+            this.button85 = new System.Windows.Forms.Button();
+            this.button78 = new System.Windows.Forms.Button();
+            this.button72 = new System.Windows.Forms.Button();
+            this.button73 = new System.Windows.Forms.Button();
+            this.button80 = new System.Windows.Forms.Button();
+            this.button74 = new System.Windows.Forms.Button();
+            this.button82 = new System.Windows.Forms.Button();
+            this.button75 = new System.Windows.Forms.Button();
+            this.button77 = new System.Windows.Forms.Button();
+            this.button47 = new System.Windows.Forms.Button();
+            this.button76 = new System.Windows.Forms.Button();
+            this.button48 = new System.Windows.Forms.Button();
+            this.button81 = new System.Windows.Forms.Button();
+            this.button49 = new System.Windows.Forms.Button();
+            this.button50 = new System.Windows.Forms.Button();
+            this.button51 = new System.Windows.Forms.Button();
+            this.button52 = new System.Windows.Forms.Button();
+            this.button53 = new System.Windows.Forms.Button();
+            this.button54 = new System.Windows.Forms.Button();
+            this.button55 = new System.Windows.Forms.Button();
+            this.button56 = new System.Windows.Forms.Button();
+            this.button57 = new System.Windows.Forms.Button();
+            this.button58 = new System.Windows.Forms.Button();
+            this.button59 = new System.Windows.Forms.Button();
+            this.button60 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
@@ -86,77 +116,47 @@ namespace BranchWordLangMaker
             this.button43 = new System.Windows.Forms.Button();
             this.button44 = new System.Windows.Forms.Button();
             this.button45 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
-            this.button51 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.button54 = new System.Windows.Forms.Button();
-            this.button55 = new System.Windows.Forms.Button();
-            this.button56 = new System.Windows.Forms.Button();
-            this.button57 = new System.Windows.Forms.Button();
-            this.button58 = new System.Windows.Forms.Button();
-            this.button59 = new System.Windows.Forms.Button();
-            this.button60 = new System.Windows.Forms.Button();
-            this.button62 = new System.Windows.Forms.Button();
-            this.button63 = new System.Windows.Forms.Button();
-            this.button64 = new System.Windows.Forms.Button();
-            this.button65 = new System.Windows.Forms.Button();
-            this.button66 = new System.Windows.Forms.Button();
-            this.button67 = new System.Windows.Forms.Button();
-            this.button68 = new System.Windows.Forms.Button();
-            this.button69 = new System.Windows.Forms.Button();
-            this.button70 = new System.Windows.Forms.Button();
-            this.button71 = new System.Windows.Forms.Button();
-            this.button72 = new System.Windows.Forms.Button();
-            this.button73 = new System.Windows.Forms.Button();
-            this.button74 = new System.Windows.Forms.Button();
-            this.button75 = new System.Windows.Forms.Button();
-            this.button76 = new System.Windows.Forms.Button();
-            this.button77 = new System.Windows.Forms.Button();
-            this.button78 = new System.Windows.Forms.Button();
-            this.button79 = new System.Windows.Forms.Button();
-            this.button80 = new System.Windows.Forms.Button();
-            this.button81 = new System.Windows.Forms.Button();
-            this.button82 = new System.Windows.Forms.Button();
-            this.button83 = new System.Windows.Forms.Button();
-            this.button84 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button61 = new System.Windows.Forms.Button();
-            this.button85 = new System.Windows.Forms.Button();
-            this.button86 = new System.Windows.Forms.Button();
-            this.button87 = new System.Windows.Forms.Button();
-            this.button88 = new System.Windows.Forms.Button();
-            this.button89 = new System.Windows.Forms.Button();
-            this.button90 = new System.Windows.Forms.Button();
-            this.button91 = new System.Windows.Forms.Button();
-            this.button92 = new System.Windows.Forms.Button();
-            this.button93 = new System.Windows.Forms.Button();
-            this.button94 = new System.Windows.Forms.Button();
-            this.button95 = new System.Windows.Forms.Button();
-            this.button96 = new System.Windows.Forms.Button();
-            this.button97 = new System.Windows.Forms.Button();
-            this.button98 = new System.Windows.Forms.Button();
-            this.button99 = new System.Windows.Forms.Button();
-            this.button100 = new System.Windows.Forms.Button();
-            this.button101 = new System.Windows.Forms.Button();
-            this.button102 = new System.Windows.Forms.Button();
-            this.button103 = new System.Windows.Forms.Button();
-            this.button104 = new System.Windows.Forms.Button();
-            this.button105 = new System.Windows.Forms.Button();
-            this.button106 = new System.Windows.Forms.Button();
-            this.button107 = new System.Windows.Forms.Button();
-            this.button108 = new System.Windows.Forms.Button();
-            this.button109 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.bt_delete = new System.Windows.Forms.Button();
+            this.bt_edit = new System.Windows.Forms.Button();
+            this.list_pronunciation = new System.Windows.Forms.ListBox();
+            this.list_meaning = new System.Windows.Forms.ListBox();
+            this.list_origin = new System.Windows.Forms.ListBox();
+            this.bt_clear = new System.Windows.Forms.Button();
+            this.tb_keyword = new System.Windows.Forms.TextBox();
+            this.lb_pgmInfo = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -209,105 +209,6 @@ namespace BranchWordLangMaker
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "특수문자 키보드";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.bt_delete);
-            this.groupBox3.Controls.Add(this.bt_edit);
-            this.groupBox3.Controls.Add(this.list_pronunciation);
-            this.groupBox3.Controls.Add(this.list_meaning);
-            this.groupBox3.Controls.Add(this.list_origin);
-            this.groupBox3.Controls.Add(this.bt_clear);
-            this.groupBox3.Controls.Add(this.tb_keyword);
-            this.groupBox3.Location = new System.Drawing.Point(420, 12);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(368, 426);
-            this.groupBox3.TabIndex = 1;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "검색";
-            // 
-            // bt_delete
-            // 
-            this.bt_delete.Location = new System.Drawing.Point(269, 387);
-            this.bt_delete.Name = "bt_delete";
-            this.bt_delete.Size = new System.Drawing.Size(93, 30);
-            this.bt_delete.TabIndex = 5;
-            this.bt_delete.Text = "삭제";
-            this.bt_delete.UseVisualStyleBackColor = true;
-            this.bt_delete.Click += new System.EventHandler(this.bt_delete_Click);
-            // 
-            // bt_edit
-            // 
-            this.bt_edit.Location = new System.Drawing.Point(170, 387);
-            this.bt_edit.Name = "bt_edit";
-            this.bt_edit.Size = new System.Drawing.Size(93, 30);
-            this.bt_edit.TabIndex = 5;
-            this.bt_edit.Text = "수정";
-            this.bt_edit.UseVisualStyleBackColor = true;
-            this.bt_edit.Click += new System.EventHandler(this.bt_edit_Click);
-            // 
-            // list_pronunciation
-            // 
-            this.list_pronunciation.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.list_pronunciation.FormattingEnabled = true;
-            this.list_pronunciation.ItemHeight = 20;
-            this.list_pronunciation.Location = new System.Drawing.Point(103, 57);
-            this.list_pronunciation.Name = "list_pronunciation";
-            this.list_pronunciation.Size = new System.Drawing.Size(91, 324);
-            this.list_pronunciation.TabIndex = 8;
-            this.list_pronunciation.SelectedIndexChanged += new System.EventHandler(this.List_SelectedIndexChanged);
-            // 
-            // list_meaning
-            // 
-            this.list_meaning.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.list_meaning.FormattingEnabled = true;
-            this.list_meaning.ItemHeight = 20;
-            this.list_meaning.Location = new System.Drawing.Point(200, 57);
-            this.list_meaning.Name = "list_meaning";
-            this.list_meaning.Size = new System.Drawing.Size(162, 324);
-            this.list_meaning.TabIndex = 7;
-            this.list_meaning.SelectedIndexChanged += new System.EventHandler(this.List_SelectedIndexChanged);
-            // 
-            // list_origin
-            // 
-            this.list_origin.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.list_origin.FormattingEnabled = true;
-            this.list_origin.ItemHeight = 20;
-            this.list_origin.Location = new System.Drawing.Point(6, 57);
-            this.list_origin.Name = "list_origin";
-            this.list_origin.Size = new System.Drawing.Size(91, 324);
-            this.list_origin.TabIndex = 6;
-            this.list_origin.SelectedIndexChanged += new System.EventHandler(this.List_SelectedIndexChanged);
-            // 
-            // bt_clear
-            // 
-            this.bt_clear.Location = new System.Drawing.Point(327, 23);
-            this.bt_clear.Name = "bt_clear";
-            this.bt_clear.Size = new System.Drawing.Size(35, 27);
-            this.bt_clear.TabIndex = 5;
-            this.bt_clear.Text = "×";
-            this.bt_clear.UseVisualStyleBackColor = true;
-            // 
-            // tb_keyword
-            // 
-            this.tb_keyword.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_keyword.Location = new System.Drawing.Point(6, 24);
-            this.tb_keyword.Name = "tb_keyword";
-            this.tb_keyword.Size = new System.Drawing.Size(315, 30);
-            this.tb_keyword.TabIndex = 5;
-            this.tb_keyword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_keyword.TextChanged += new System.EventHandler(this.tb_keyword_TextChanged);
-            // 
-            // lb_pgmInfo
-            // 
-            this.lb_pgmInfo.AutoSize = true;
-            this.lb_pgmInfo.Font = new System.Drawing.Font("굴림", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lb_pgmInfo.ForeColor = System.Drawing.Color.Silver;
-            this.lb_pgmInfo.Location = new System.Drawing.Point(12, 426);
-            this.lb_pgmInfo.Name = "lb_pgmInfo";
-            this.lb_pgmInfo.Size = new System.Drawing.Size(289, 12);
-            this.lb_pgmInfo.TabIndex = 2;
-            this.lb_pgmInfo.Text = "가지세계 언어 생성기 v0.2 | Made by DoubleDeltas";
             // 
             // panel1
             // 
@@ -426,313 +327,742 @@ namespace BranchWordLangMaker
             this.panel1.Size = new System.Drawing.Size(400, 175);
             this.panel1.TabIndex = 0;
             // 
-            // button1
+            // button108
             // 
-            this.button1.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(20, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "ᚠ";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button108.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button108.Location = new System.Drawing.Point(3, 289);
+            this.button108.Name = "button108";
+            this.button108.Size = new System.Drawing.Size(20, 30);
+            this.button108.TabIndex = 111;
+            this.button108.Text = "ý";
+            this.button108.UseVisualStyleBackColor = true;
+            this.button108.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button2
+            // button107
             // 
-            this.button2.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.Location = new System.Drawing.Point(29, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(20, 30);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "ᚡ";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button107.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button107.Location = new System.Drawing.Point(211, 255);
+            this.button107.Name = "button107";
+            this.button107.Size = new System.Drawing.Size(20, 30);
+            this.button107.TabIndex = 110;
+            this.button107.Text = "ö";
+            this.button107.UseVisualStyleBackColor = true;
+            this.button107.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button3
+            // button109
             // 
-            this.button3.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button3.Location = new System.Drawing.Point(55, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(20, 30);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "ᚢ";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button109.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button109.Location = new System.Drawing.Point(29, 289);
+            this.button109.Name = "button109";
+            this.button109.Size = new System.Drawing.Size(20, 30);
+            this.button109.TabIndex = 112;
+            this.button109.Text = "ß";
+            this.button109.UseVisualStyleBackColor = true;
+            this.button109.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button4
+            // button106
             // 
-            this.button4.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button4.Location = new System.Drawing.Point(81, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(20, 30);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "ᚣ";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button106.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button106.Location = new System.Drawing.Point(159, 255);
+            this.button106.Name = "button106";
+            this.button106.Size = new System.Drawing.Size(20, 30);
+            this.button106.TabIndex = 109;
+            this.button106.Text = "ô";
+            this.button106.UseVisualStyleBackColor = true;
+            this.button106.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button5
+            // button94
             // 
-            this.button5.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button5.Location = new System.Drawing.Point(107, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(20, 30);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "ᚤ";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button94.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button94.Location = new System.Drawing.Point(341, 255);
+            this.button94.Name = "button94";
+            this.button94.Size = new System.Drawing.Size(20, 30);
+            this.button94.TabIndex = 108;
+            this.button94.Text = "ü";
+            this.button94.UseVisualStyleBackColor = true;
+            this.button94.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button6
+            // button95
             // 
-            this.button6.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button6.Location = new System.Drawing.Point(133, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(20, 30);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "ᚥ";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button95.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button95.Location = new System.Drawing.Point(315, 255);
+            this.button95.Name = "button95";
+            this.button95.Size = new System.Drawing.Size(20, 30);
+            this.button95.TabIndex = 107;
+            this.button95.Text = "û";
+            this.button95.UseVisualStyleBackColor = true;
+            this.button95.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button7
+            // button15
             // 
-            this.button7.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button7.Location = new System.Drawing.Point(159, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(20, 30);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "ᚦ";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button15.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button15.Location = new System.Drawing.Point(341, 219);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(20, 30);
+            this.button15.TabIndex = 96;
+            this.button15.Text = "í";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button8
+            // button16
             // 
-            this.button8.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button8.Location = new System.Drawing.Point(185, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(20, 30);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "ᚧ";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button16.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button16.Location = new System.Drawing.Point(315, 219);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(20, 30);
+            this.button16.TabIndex = 95;
+            this.button16.Text = "ì";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button9
+            // button105
             // 
-            this.button9.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button9.Location = new System.Drawing.Point(211, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(20, 30);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "ᚨ";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button105.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button105.Location = new System.Drawing.Point(237, 255);
+            this.button105.Name = "button105";
+            this.button105.Size = new System.Drawing.Size(20, 30);
+            this.button105.TabIndex = 104;
+            this.button105.Text = "ø";
+            this.button105.UseVisualStyleBackColor = true;
+            this.button105.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button10
+            // button62
             // 
-            this.button10.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button10.Location = new System.Drawing.Point(237, 3);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(20, 30);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "ᚩ";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button62.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button62.Location = new System.Drawing.Point(341, 147);
+            this.button62.Name = "button62";
+            this.button62.Size = new System.Drawing.Size(20, 30);
+            this.button62.TabIndex = 73;
+            this.button62.Text = "ᛦ";
+            this.button62.UseVisualStyleBackColor = true;
+            this.button62.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button11
+            // button100
             // 
-            this.button11.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button11.Location = new System.Drawing.Point(263, 3);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(20, 30);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "ᚪ";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button100.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button100.Location = new System.Drawing.Point(55, 255);
+            this.button100.Name = "button100";
+            this.button100.Size = new System.Drawing.Size(20, 30);
+            this.button100.TabIndex = 99;
+            this.button100.Text = "ð";
+            this.button100.UseVisualStyleBackColor = true;
+            this.button100.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button12
+            // button63
             // 
-            this.button12.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button12.Location = new System.Drawing.Point(289, 3);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(20, 30);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "ᚫ";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button63.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button63.Location = new System.Drawing.Point(315, 147);
+            this.button63.Name = "button63";
+            this.button63.Size = new System.Drawing.Size(20, 30);
+            this.button63.TabIndex = 72;
+            this.button63.Text = "ᛥ";
+            this.button63.UseVisualStyleBackColor = true;
+            this.button63.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button13
+            // button99
             // 
-            this.button13.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button13.Location = new System.Drawing.Point(315, 3);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(20, 30);
-            this.button13.TabIndex = 12;
-            this.button13.Text = "ᚬ";
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button99.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button99.Location = new System.Drawing.Point(133, 255);
+            this.button99.Name = "button99";
+            this.button99.Size = new System.Drawing.Size(20, 30);
+            this.button99.TabIndex = 102;
+            this.button99.Text = "ó";
+            this.button99.UseVisualStyleBackColor = true;
+            this.button99.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button14
+            // button89
             // 
-            this.button14.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button14.Location = new System.Drawing.Point(341, 3);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(20, 30);
-            this.button14.TabIndex = 13;
-            this.button14.Text = "ᚭ";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button89.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button89.Location = new System.Drawing.Point(107, 219);
+            this.button89.Name = "button89";
+            this.button89.Size = new System.Drawing.Size(20, 30);
+            this.button89.TabIndex = 87;
+            this.button89.Text = "ä";
+            this.button89.UseVisualStyleBackColor = true;
+            this.button89.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button17
+            // button104
             // 
-            this.button17.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button17.Location = new System.Drawing.Point(341, 39);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(20, 30);
-            this.button17.TabIndex = 28;
-            this.button17.Text = "ᚻ";
-            this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button104.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button104.Location = new System.Drawing.Point(3, 255);
+            this.button104.Name = "button104";
+            this.button104.Size = new System.Drawing.Size(20, 30);
+            this.button104.TabIndex = 97;
+            this.button104.Text = "î";
+            this.button104.UseVisualStyleBackColor = true;
+            this.button104.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button18
+            // button64
             // 
-            this.button18.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button18.Location = new System.Drawing.Point(315, 39);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(20, 30);
-            this.button18.TabIndex = 27;
-            this.button18.Text = "ᚺ";
-            this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button64.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button64.Location = new System.Drawing.Point(289, 147);
+            this.button64.Name = "button64";
+            this.button64.Size = new System.Drawing.Size(20, 30);
+            this.button64.TabIndex = 71;
+            this.button64.Text = "ᛤ";
+            this.button64.UseVisualStyleBackColor = true;
+            this.button64.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button19
+            // button103
             // 
-            this.button19.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button19.Location = new System.Drawing.Point(289, 39);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(20, 30);
-            this.button19.TabIndex = 26;
-            this.button19.Text = "ᚹ";
-            this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button103.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button103.Location = new System.Drawing.Point(185, 255);
+            this.button103.Name = "button103";
+            this.button103.Size = new System.Drawing.Size(20, 30);
+            this.button103.TabIndex = 103;
+            this.button103.Text = "õ";
+            this.button103.UseVisualStyleBackColor = true;
+            this.button103.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button20
+            // button90
             // 
-            this.button20.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button20.Location = new System.Drawing.Point(263, 39);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(20, 30);
-            this.button20.TabIndex = 25;
-            this.button20.Text = "ᚸ";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button90.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button90.Location = new System.Drawing.Point(81, 219);
+            this.button90.Name = "button90";
+            this.button90.Size = new System.Drawing.Size(20, 30);
+            this.button90.TabIndex = 86;
+            this.button90.Text = "ã";
+            this.button90.UseVisualStyleBackColor = true;
+            this.button90.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button21
+            // button96
             // 
-            this.button21.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button21.Location = new System.Drawing.Point(237, 39);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(20, 30);
-            this.button21.TabIndex = 24;
-            this.button21.Text = "ᚷ";
-            this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button96.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button96.Location = new System.Drawing.Point(107, 255);
+            this.button96.Name = "button96";
+            this.button96.Size = new System.Drawing.Size(20, 30);
+            this.button96.TabIndex = 101;
+            this.button96.Text = "ò";
+            this.button96.UseVisualStyleBackColor = true;
+            this.button96.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button22
+            // button65
             // 
-            this.button22.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button22.Location = new System.Drawing.Point(211, 39);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(20, 30);
-            this.button22.TabIndex = 23;
-            this.button22.Text = "ᚶ";
-            this.button22.UseVisualStyleBackColor = true;
-            this.button22.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button65.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button65.Location = new System.Drawing.Point(263, 147);
+            this.button65.Name = "button65";
+            this.button65.Size = new System.Drawing.Size(20, 30);
+            this.button65.TabIndex = 70;
+            this.button65.Text = "ᛣ";
+            this.button65.UseVisualStyleBackColor = true;
+            this.button65.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button23
+            // button98
             // 
-            this.button23.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button23.Location = new System.Drawing.Point(185, 39);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(20, 30);
-            this.button23.TabIndex = 22;
-            this.button23.Text = "ᚵ";
-            this.button23.UseVisualStyleBackColor = true;
-            this.button23.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button98.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button98.Location = new System.Drawing.Point(289, 255);
+            this.button98.Name = "button98";
+            this.button98.Size = new System.Drawing.Size(20, 30);
+            this.button98.TabIndex = 106;
+            this.button98.Text = "ú";
+            this.button98.UseVisualStyleBackColor = true;
+            this.button98.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button24
+            // button31
             // 
-            this.button24.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button24.Location = new System.Drawing.Point(159, 39);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(20, 30);
-            this.button24.TabIndex = 21;
-            this.button24.Text = "ᚴ";
-            this.button24.UseVisualStyleBackColor = true;
-            this.button24.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button31.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button31.Location = new System.Drawing.Point(289, 219);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(20, 30);
+            this.button31.TabIndex = 94;
+            this.button31.Text = "ë";
+            this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button25
+            // button97
             // 
-            this.button25.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button25.Location = new System.Drawing.Point(133, 39);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(20, 30);
-            this.button25.TabIndex = 20;
-            this.button25.Text = "ᚳ";
-            this.button25.UseVisualStyleBackColor = true;
-            this.button25.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button97.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button97.Location = new System.Drawing.Point(81, 255);
+            this.button97.Name = "button97";
+            this.button97.Size = new System.Drawing.Size(20, 30);
+            this.button97.TabIndex = 100;
+            this.button97.Text = "ñ";
+            this.button97.UseVisualStyleBackColor = true;
+            this.button97.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button26
+            // button66
             // 
-            this.button26.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button26.Location = new System.Drawing.Point(107, 39);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(20, 30);
-            this.button26.TabIndex = 19;
-            this.button26.Text = "ᚲ";
-            this.button26.UseVisualStyleBackColor = true;
-            this.button26.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button66.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button66.Location = new System.Drawing.Point(237, 147);
+            this.button66.Name = "button66";
+            this.button66.Size = new System.Drawing.Size(20, 30);
+            this.button66.TabIndex = 69;
+            this.button66.Text = "ᛢ";
+            this.button66.UseVisualStyleBackColor = true;
+            this.button66.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button27
+            // button102
             // 
-            this.button27.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button27.Location = new System.Drawing.Point(81, 39);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(20, 30);
-            this.button27.TabIndex = 18;
-            this.button27.Text = "ᚱ";
-            this.button27.UseVisualStyleBackColor = true;
-            this.button27.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button102.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button102.Location = new System.Drawing.Point(29, 255);
+            this.button102.Name = "button102";
+            this.button102.Size = new System.Drawing.Size(20, 30);
+            this.button102.TabIndex = 98;
+            this.button102.Text = "ï";
+            this.button102.UseVisualStyleBackColor = true;
+            this.button102.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button28
+            // button88
             // 
-            this.button28.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button28.Location = new System.Drawing.Point(55, 39);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(20, 30);
-            this.button28.TabIndex = 17;
-            this.button28.Text = "ᚰ";
-            this.button28.UseVisualStyleBackColor = true;
-            this.button28.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button88.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button88.Location = new System.Drawing.Point(133, 219);
+            this.button88.Name = "button88";
+            this.button88.Size = new System.Drawing.Size(20, 30);
+            this.button88.TabIndex = 88;
+            this.button88.Text = "å";
+            this.button88.UseVisualStyleBackColor = true;
+            this.button88.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button29
+            // button101
             // 
-            this.button29.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button29.Location = new System.Drawing.Point(29, 39);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(20, 30);
-            this.button29.TabIndex = 16;
-            this.button29.Text = "ᚯ";
-            this.button29.UseVisualStyleBackColor = true;
-            this.button29.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button101.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button101.Location = new System.Drawing.Point(263, 255);
+            this.button101.Name = "button101";
+            this.button101.Size = new System.Drawing.Size(20, 30);
+            this.button101.TabIndex = 105;
+            this.button101.Text = "ù";
+            this.button101.UseVisualStyleBackColor = true;
+            this.button101.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button30
+            // button84
             // 
-            this.button30.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button30.Location = new System.Drawing.Point(3, 39);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(20, 30);
-            this.button30.TabIndex = 15;
-            this.button30.Text = "ᚮ";
-            this.button30.UseVisualStyleBackColor = true;
-            this.button30.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            this.button84.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button84.Location = new System.Drawing.Point(3, 183);
+            this.button84.Name = "button84";
+            this.button84.Size = new System.Drawing.Size(20, 30);
+            this.button84.TabIndex = 74;
+            this.button84.Text = "ᛧ";
+            this.button84.UseVisualStyleBackColor = true;
+            this.button84.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button91
+            // 
+            this.button91.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button91.Location = new System.Drawing.Point(55, 219);
+            this.button91.Name = "button91";
+            this.button91.Size = new System.Drawing.Size(20, 30);
+            this.button91.TabIndex = 85;
+            this.button91.Text = "â";
+            this.button91.UseVisualStyleBackColor = true;
+            this.button91.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button67
+            // 
+            this.button67.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button67.Location = new System.Drawing.Point(211, 147);
+            this.button67.Name = "button67";
+            this.button67.Size = new System.Drawing.Size(20, 30);
+            this.button67.TabIndex = 68;
+            this.button67.Text = "ᛡ";
+            this.button67.UseVisualStyleBackColor = true;
+            this.button67.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button87
+            // 
+            this.button87.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button87.Location = new System.Drawing.Point(159, 219);
+            this.button87.Name = "button87";
+            this.button87.Size = new System.Drawing.Size(20, 30);
+            this.button87.TabIndex = 89;
+            this.button87.Text = "æ";
+            this.button87.UseVisualStyleBackColor = true;
+            this.button87.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button68
+            // 
+            this.button68.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button68.Location = new System.Drawing.Point(185, 147);
+            this.button68.Name = "button68";
+            this.button68.Size = new System.Drawing.Size(20, 30);
+            this.button68.TabIndex = 67;
+            this.button68.Text = "ᛠ";
+            this.button68.UseVisualStyleBackColor = true;
+            this.button68.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button46
+            // 
+            this.button46.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button46.Location = new System.Drawing.Point(263, 219);
+            this.button46.Name = "button46";
+            this.button46.Size = new System.Drawing.Size(20, 30);
+            this.button46.TabIndex = 93;
+            this.button46.Text = "ê";
+            this.button46.UseVisualStyleBackColor = true;
+            this.button46.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button69
+            // 
+            this.button69.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button69.Location = new System.Drawing.Point(159, 147);
+            this.button69.Name = "button69";
+            this.button69.Size = new System.Drawing.Size(20, 30);
+            this.button69.TabIndex = 66;
+            this.button69.Text = "ᛟ";
+            this.button69.UseVisualStyleBackColor = true;
+            this.button69.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button92
+            // 
+            this.button92.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button92.Location = new System.Drawing.Point(29, 219);
+            this.button92.Name = "button92";
+            this.button92.Size = new System.Drawing.Size(20, 30);
+            this.button92.TabIndex = 84;
+            this.button92.Text = "á";
+            this.button92.UseVisualStyleBackColor = true;
+            this.button92.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button79
+            // 
+            this.button79.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button79.Location = new System.Drawing.Point(133, 183);
+            this.button79.Name = "button79";
+            this.button79.Size = new System.Drawing.Size(20, 30);
+            this.button79.TabIndex = 79;
+            this.button79.Text = "᛬";
+            this.button79.UseVisualStyleBackColor = true;
+            this.button79.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button86
+            // 
+            this.button86.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button86.Location = new System.Drawing.Point(185, 219);
+            this.button86.Name = "button86";
+            this.button86.Size = new System.Drawing.Size(20, 30);
+            this.button86.TabIndex = 90;
+            this.button86.Text = "ç";
+            this.button86.UseVisualStyleBackColor = true;
+            this.button86.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button70
+            // 
+            this.button70.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button70.Location = new System.Drawing.Point(133, 147);
+            this.button70.Name = "button70";
+            this.button70.Size = new System.Drawing.Size(20, 30);
+            this.button70.TabIndex = 65;
+            this.button70.Text = "ᛞ";
+            this.button70.UseVisualStyleBackColor = true;
+            this.button70.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button93
+            // 
+            this.button93.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button93.Location = new System.Drawing.Point(3, 219);
+            this.button93.Name = "button93";
+            this.button93.Size = new System.Drawing.Size(20, 30);
+            this.button93.TabIndex = 83;
+            this.button93.Text = "à";
+            this.button93.UseVisualStyleBackColor = true;
+            this.button93.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button83
+            // 
+            this.button83.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button83.Location = new System.Drawing.Point(29, 183);
+            this.button83.Name = "button83";
+            this.button83.Size = new System.Drawing.Size(20, 30);
+            this.button83.TabIndex = 75;
+            this.button83.Text = "ᛨ";
+            this.button83.UseVisualStyleBackColor = true;
+            this.button83.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button61
+            // 
+            this.button61.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button61.Location = new System.Drawing.Point(237, 219);
+            this.button61.Name = "button61";
+            this.button61.Size = new System.Drawing.Size(20, 30);
+            this.button61.TabIndex = 92;
+            this.button61.Text = "é";
+            this.button61.UseVisualStyleBackColor = true;
+            this.button61.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button71
+            // 
+            this.button71.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button71.Location = new System.Drawing.Point(107, 147);
+            this.button71.Name = "button71";
+            this.button71.Size = new System.Drawing.Size(20, 30);
+            this.button71.TabIndex = 64;
+            this.button71.Text = "ᛝ";
+            this.button71.UseVisualStyleBackColor = true;
+            this.button71.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button85
+            // 
+            this.button85.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button85.Location = new System.Drawing.Point(211, 219);
+            this.button85.Name = "button85";
+            this.button85.Size = new System.Drawing.Size(20, 30);
+            this.button85.TabIndex = 91;
+            this.button85.Text = "è";
+            this.button85.UseVisualStyleBackColor = true;
+            this.button85.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button78
+            // 
+            this.button78.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button78.Location = new System.Drawing.Point(159, 183);
+            this.button78.Name = "button78";
+            this.button78.Size = new System.Drawing.Size(20, 30);
+            this.button78.TabIndex = 80;
+            this.button78.Text = "᛭";
+            this.button78.UseVisualStyleBackColor = true;
+            this.button78.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button72
+            // 
+            this.button72.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button72.Location = new System.Drawing.Point(81, 147);
+            this.button72.Name = "button72";
+            this.button72.Size = new System.Drawing.Size(20, 30);
+            this.button72.TabIndex = 63;
+            this.button72.Text = "ᛜ";
+            this.button72.UseVisualStyleBackColor = true;
+            this.button72.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button73
+            // 
+            this.button73.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button73.Location = new System.Drawing.Point(55, 147);
+            this.button73.Name = "button73";
+            this.button73.Size = new System.Drawing.Size(20, 30);
+            this.button73.TabIndex = 62;
+            this.button73.Text = "ᛛ";
+            this.button73.UseVisualStyleBackColor = true;
+            this.button73.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button80
+            // 
+            this.button80.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button80.Location = new System.Drawing.Point(107, 183);
+            this.button80.Name = "button80";
+            this.button80.Size = new System.Drawing.Size(20, 30);
+            this.button80.TabIndex = 78;
+            this.button80.Text = "᛫";
+            this.button80.UseVisualStyleBackColor = true;
+            this.button80.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button74
+            // 
+            this.button74.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button74.Location = new System.Drawing.Point(29, 147);
+            this.button74.Name = "button74";
+            this.button74.Size = new System.Drawing.Size(20, 30);
+            this.button74.TabIndex = 61;
+            this.button74.Text = "ᛚ";
+            this.button74.UseVisualStyleBackColor = true;
+            this.button74.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button82
+            // 
+            this.button82.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button82.Location = new System.Drawing.Point(55, 183);
+            this.button82.Name = "button82";
+            this.button82.Size = new System.Drawing.Size(20, 30);
+            this.button82.TabIndex = 76;
+            this.button82.Text = "ᛩ";
+            this.button82.UseVisualStyleBackColor = true;
+            this.button82.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button75
+            // 
+            this.button75.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button75.Location = new System.Drawing.Point(3, 147);
+            this.button75.Name = "button75";
+            this.button75.Size = new System.Drawing.Size(20, 30);
+            this.button75.TabIndex = 60;
+            this.button75.Text = "ᛙ";
+            this.button75.UseVisualStyleBackColor = true;
+            this.button75.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button77
+            // 
+            this.button77.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button77.Location = new System.Drawing.Point(185, 183);
+            this.button77.Name = "button77";
+            this.button77.Size = new System.Drawing.Size(20, 30);
+            this.button77.TabIndex = 81;
+            this.button77.Text = "ᛮ";
+            this.button77.UseVisualStyleBackColor = true;
+            this.button77.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button47
+            // 
+            this.button47.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button47.Location = new System.Drawing.Point(341, 111);
+            this.button47.Name = "button47";
+            this.button47.Size = new System.Drawing.Size(20, 30);
+            this.button47.TabIndex = 58;
+            this.button47.Text = "ᛘ";
+            this.button47.UseVisualStyleBackColor = true;
+            this.button47.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button76
+            // 
+            this.button76.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button76.Location = new System.Drawing.Point(211, 183);
+            this.button76.Name = "button76";
+            this.button76.Size = new System.Drawing.Size(20, 30);
+            this.button76.TabIndex = 82;
+            this.button76.Text = "ᛯ";
+            this.button76.UseVisualStyleBackColor = true;
+            this.button76.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button48
+            // 
+            this.button48.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button48.Location = new System.Drawing.Point(315, 111);
+            this.button48.Name = "button48";
+            this.button48.Size = new System.Drawing.Size(20, 30);
+            this.button48.TabIndex = 57;
+            this.button48.Text = "ᛗ";
+            this.button48.UseVisualStyleBackColor = true;
+            this.button48.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button81
+            // 
+            this.button81.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button81.Location = new System.Drawing.Point(81, 183);
+            this.button81.Name = "button81";
+            this.button81.Size = new System.Drawing.Size(20, 30);
+            this.button81.TabIndex = 77;
+            this.button81.Text = "ᛪ";
+            this.button81.UseVisualStyleBackColor = true;
+            this.button81.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button49
+            // 
+            this.button49.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button49.Location = new System.Drawing.Point(289, 111);
+            this.button49.Name = "button49";
+            this.button49.Size = new System.Drawing.Size(20, 30);
+            this.button49.TabIndex = 56;
+            this.button49.Text = "ᛖ";
+            this.button49.UseVisualStyleBackColor = true;
+            this.button49.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button50
+            // 
+            this.button50.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button50.Location = new System.Drawing.Point(263, 111);
+            this.button50.Name = "button50";
+            this.button50.Size = new System.Drawing.Size(20, 30);
+            this.button50.TabIndex = 55;
+            this.button50.Text = "ᛕ";
+            this.button50.UseVisualStyleBackColor = true;
+            this.button50.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button51
+            // 
+            this.button51.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button51.Location = new System.Drawing.Point(237, 111);
+            this.button51.Name = "button51";
+            this.button51.Size = new System.Drawing.Size(20, 30);
+            this.button51.TabIndex = 54;
+            this.button51.Text = "ᛔ";
+            this.button51.UseVisualStyleBackColor = true;
+            this.button51.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button52
+            // 
+            this.button52.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button52.Location = new System.Drawing.Point(211, 111);
+            this.button52.Name = "button52";
+            this.button52.Size = new System.Drawing.Size(20, 30);
+            this.button52.TabIndex = 53;
+            this.button52.Text = "ᛓ";
+            this.button52.UseVisualStyleBackColor = true;
+            this.button52.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button53
+            // 
+            this.button53.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button53.Location = new System.Drawing.Point(185, 111);
+            this.button53.Name = "button53";
+            this.button53.Size = new System.Drawing.Size(20, 30);
+            this.button53.TabIndex = 52;
+            this.button53.Text = "ᛒ";
+            this.button53.UseVisualStyleBackColor = true;
+            this.button53.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button54
+            // 
+            this.button54.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button54.Location = new System.Drawing.Point(159, 111);
+            this.button54.Name = "button54";
+            this.button54.Size = new System.Drawing.Size(20, 30);
+            this.button54.TabIndex = 51;
+            this.button54.Text = "ᛑ";
+            this.button54.UseVisualStyleBackColor = true;
+            this.button54.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button55
+            // 
+            this.button55.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button55.Location = new System.Drawing.Point(133, 111);
+            this.button55.Name = "button55";
+            this.button55.Size = new System.Drawing.Size(20, 30);
+            this.button55.TabIndex = 50;
+            this.button55.Text = "ᛐ";
+            this.button55.UseVisualStyleBackColor = true;
+            this.button55.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button56
+            // 
+            this.button56.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button56.Location = new System.Drawing.Point(107, 111);
+            this.button56.Name = "button56";
+            this.button56.Size = new System.Drawing.Size(20, 30);
+            this.button56.TabIndex = 49;
+            this.button56.Text = "ᛏ";
+            this.button56.UseVisualStyleBackColor = true;
+            this.button56.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button57
+            // 
+            this.button57.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button57.Location = new System.Drawing.Point(81, 111);
+            this.button57.Name = "button57";
+            this.button57.Size = new System.Drawing.Size(20, 30);
+            this.button57.TabIndex = 48;
+            this.button57.Text = "ᛎ";
+            this.button57.UseVisualStyleBackColor = true;
+            this.button57.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button58
+            // 
+            this.button58.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button58.Location = new System.Drawing.Point(55, 111);
+            this.button58.Name = "button58";
+            this.button58.Size = new System.Drawing.Size(20, 30);
+            this.button58.TabIndex = 47;
+            this.button58.Text = "ᛍ";
+            this.button58.UseVisualStyleBackColor = true;
+            this.button58.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button59
+            // 
+            this.button59.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button59.Location = new System.Drawing.Point(29, 111);
+            this.button59.Name = "button59";
+            this.button59.Size = new System.Drawing.Size(20, 30);
+            this.button59.TabIndex = 46;
+            this.button59.Text = "ᛌ";
+            this.button59.UseVisualStyleBackColor = true;
+            this.button59.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button60
+            // 
+            this.button60.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button60.Location = new System.Drawing.Point(3, 111);
+            this.button60.Name = "button60";
+            this.button60.Size = new System.Drawing.Size(20, 30);
+            this.button60.TabIndex = 45;
+            this.button60.Text = "ᛋ";
+            this.button60.UseVisualStyleBackColor = true;
+            this.button60.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
             // button32
             // 
@@ -888,742 +1218,413 @@ namespace BranchWordLangMaker
             this.button45.UseVisualStyleBackColor = true;
             this.button45.Click += new System.EventHandler(this.SpecialCharacterButton_click);
             // 
-            // button47
-            // 
-            this.button47.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button47.Location = new System.Drawing.Point(341, 111);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(20, 30);
-            this.button47.TabIndex = 58;
-            this.button47.Text = "ᛘ";
-            this.button47.UseVisualStyleBackColor = true;
-            this.button47.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button48
-            // 
-            this.button48.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button48.Location = new System.Drawing.Point(315, 111);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(20, 30);
-            this.button48.TabIndex = 57;
-            this.button48.Text = "ᛗ";
-            this.button48.UseVisualStyleBackColor = true;
-            this.button48.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button49
-            // 
-            this.button49.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button49.Location = new System.Drawing.Point(289, 111);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(20, 30);
-            this.button49.TabIndex = 56;
-            this.button49.Text = "ᛖ";
-            this.button49.UseVisualStyleBackColor = true;
-            this.button49.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button50
-            // 
-            this.button50.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button50.Location = new System.Drawing.Point(263, 111);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(20, 30);
-            this.button50.TabIndex = 55;
-            this.button50.Text = "ᛕ";
-            this.button50.UseVisualStyleBackColor = true;
-            this.button50.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button51
-            // 
-            this.button51.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button51.Location = new System.Drawing.Point(237, 111);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(20, 30);
-            this.button51.TabIndex = 54;
-            this.button51.Text = "ᛔ";
-            this.button51.UseVisualStyleBackColor = true;
-            this.button51.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button52
-            // 
-            this.button52.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button52.Location = new System.Drawing.Point(211, 111);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(20, 30);
-            this.button52.TabIndex = 53;
-            this.button52.Text = "ᛓ";
-            this.button52.UseVisualStyleBackColor = true;
-            this.button52.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button53
-            // 
-            this.button53.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button53.Location = new System.Drawing.Point(185, 111);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(20, 30);
-            this.button53.TabIndex = 52;
-            this.button53.Text = "ᛒ";
-            this.button53.UseVisualStyleBackColor = true;
-            this.button53.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button54
-            // 
-            this.button54.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button54.Location = new System.Drawing.Point(159, 111);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(20, 30);
-            this.button54.TabIndex = 51;
-            this.button54.Text = "ᛑ";
-            this.button54.UseVisualStyleBackColor = true;
-            this.button54.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button55
-            // 
-            this.button55.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button55.Location = new System.Drawing.Point(133, 111);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(20, 30);
-            this.button55.TabIndex = 50;
-            this.button55.Text = "ᛐ";
-            this.button55.UseVisualStyleBackColor = true;
-            this.button55.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button56
-            // 
-            this.button56.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button56.Location = new System.Drawing.Point(107, 111);
-            this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(20, 30);
-            this.button56.TabIndex = 49;
-            this.button56.Text = "ᛏ";
-            this.button56.UseVisualStyleBackColor = true;
-            this.button56.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button57
-            // 
-            this.button57.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button57.Location = new System.Drawing.Point(81, 111);
-            this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(20, 30);
-            this.button57.TabIndex = 48;
-            this.button57.Text = "ᛎ";
-            this.button57.UseVisualStyleBackColor = true;
-            this.button57.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button58
-            // 
-            this.button58.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button58.Location = new System.Drawing.Point(55, 111);
-            this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(20, 30);
-            this.button58.TabIndex = 47;
-            this.button58.Text = "ᛍ";
-            this.button58.UseVisualStyleBackColor = true;
-            this.button58.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button59
-            // 
-            this.button59.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button59.Location = new System.Drawing.Point(29, 111);
-            this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(20, 30);
-            this.button59.TabIndex = 46;
-            this.button59.Text = "ᛌ";
-            this.button59.UseVisualStyleBackColor = true;
-            this.button59.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button60
-            // 
-            this.button60.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button60.Location = new System.Drawing.Point(3, 111);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(20, 30);
-            this.button60.TabIndex = 45;
-            this.button60.Text = "ᛋ";
-            this.button60.UseVisualStyleBackColor = true;
-            this.button60.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button62
-            // 
-            this.button62.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button62.Location = new System.Drawing.Point(341, 147);
-            this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(20, 30);
-            this.button62.TabIndex = 73;
-            this.button62.Text = "ᛦ";
-            this.button62.UseVisualStyleBackColor = true;
-            this.button62.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button63
-            // 
-            this.button63.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button63.Location = new System.Drawing.Point(315, 147);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(20, 30);
-            this.button63.TabIndex = 72;
-            this.button63.Text = "ᛥ";
-            this.button63.UseVisualStyleBackColor = true;
-            this.button63.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button64
-            // 
-            this.button64.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button64.Location = new System.Drawing.Point(289, 147);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(20, 30);
-            this.button64.TabIndex = 71;
-            this.button64.Text = "ᛤ";
-            this.button64.UseVisualStyleBackColor = true;
-            this.button64.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button65
-            // 
-            this.button65.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button65.Location = new System.Drawing.Point(263, 147);
-            this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(20, 30);
-            this.button65.TabIndex = 70;
-            this.button65.Text = "ᛣ";
-            this.button65.UseVisualStyleBackColor = true;
-            this.button65.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button66
-            // 
-            this.button66.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button66.Location = new System.Drawing.Point(237, 147);
-            this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(20, 30);
-            this.button66.TabIndex = 69;
-            this.button66.Text = "ᛢ";
-            this.button66.UseVisualStyleBackColor = true;
-            this.button66.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button67
-            // 
-            this.button67.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button67.Location = new System.Drawing.Point(211, 147);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(20, 30);
-            this.button67.TabIndex = 68;
-            this.button67.Text = "ᛡ";
-            this.button67.UseVisualStyleBackColor = true;
-            this.button67.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button68
-            // 
-            this.button68.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button68.Location = new System.Drawing.Point(185, 147);
-            this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(20, 30);
-            this.button68.TabIndex = 67;
-            this.button68.Text = "ᛠ";
-            this.button68.UseVisualStyleBackColor = true;
-            this.button68.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button69
-            // 
-            this.button69.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button69.Location = new System.Drawing.Point(159, 147);
-            this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(20, 30);
-            this.button69.TabIndex = 66;
-            this.button69.Text = "ᛟ";
-            this.button69.UseVisualStyleBackColor = true;
-            this.button69.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button70
-            // 
-            this.button70.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button70.Location = new System.Drawing.Point(133, 147);
-            this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(20, 30);
-            this.button70.TabIndex = 65;
-            this.button70.Text = "ᛞ";
-            this.button70.UseVisualStyleBackColor = true;
-            this.button70.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button71
-            // 
-            this.button71.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button71.Location = new System.Drawing.Point(107, 147);
-            this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(20, 30);
-            this.button71.TabIndex = 64;
-            this.button71.Text = "ᛝ";
-            this.button71.UseVisualStyleBackColor = true;
-            this.button71.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button72
-            // 
-            this.button72.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button72.Location = new System.Drawing.Point(81, 147);
-            this.button72.Name = "button72";
-            this.button72.Size = new System.Drawing.Size(20, 30);
-            this.button72.TabIndex = 63;
-            this.button72.Text = "ᛜ";
-            this.button72.UseVisualStyleBackColor = true;
-            this.button72.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button73
-            // 
-            this.button73.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button73.Location = new System.Drawing.Point(55, 147);
-            this.button73.Name = "button73";
-            this.button73.Size = new System.Drawing.Size(20, 30);
-            this.button73.TabIndex = 62;
-            this.button73.Text = "ᛛ";
-            this.button73.UseVisualStyleBackColor = true;
-            this.button73.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button74
-            // 
-            this.button74.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button74.Location = new System.Drawing.Point(29, 147);
-            this.button74.Name = "button74";
-            this.button74.Size = new System.Drawing.Size(20, 30);
-            this.button74.TabIndex = 61;
-            this.button74.Text = "ᛚ";
-            this.button74.UseVisualStyleBackColor = true;
-            this.button74.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button75
-            // 
-            this.button75.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button75.Location = new System.Drawing.Point(3, 147);
-            this.button75.Name = "button75";
-            this.button75.Size = new System.Drawing.Size(20, 30);
-            this.button75.TabIndex = 60;
-            this.button75.Text = "ᛙ";
-            this.button75.UseVisualStyleBackColor = true;
-            this.button75.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button76
-            // 
-            this.button76.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button76.Location = new System.Drawing.Point(211, 183);
-            this.button76.Name = "button76";
-            this.button76.Size = new System.Drawing.Size(20, 30);
-            this.button76.TabIndex = 82;
-            this.button76.Text = "ᛯ";
-            this.button76.UseVisualStyleBackColor = true;
-            this.button76.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button77
-            // 
-            this.button77.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button77.Location = new System.Drawing.Point(185, 183);
-            this.button77.Name = "button77";
-            this.button77.Size = new System.Drawing.Size(20, 30);
-            this.button77.TabIndex = 81;
-            this.button77.Text = "ᛮ";
-            this.button77.UseVisualStyleBackColor = true;
-            this.button77.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button78
-            // 
-            this.button78.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button78.Location = new System.Drawing.Point(159, 183);
-            this.button78.Name = "button78";
-            this.button78.Size = new System.Drawing.Size(20, 30);
-            this.button78.TabIndex = 80;
-            this.button78.Text = "᛭";
-            this.button78.UseVisualStyleBackColor = true;
-            this.button78.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button79
-            // 
-            this.button79.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button79.Location = new System.Drawing.Point(133, 183);
-            this.button79.Name = "button79";
-            this.button79.Size = new System.Drawing.Size(20, 30);
-            this.button79.TabIndex = 79;
-            this.button79.Text = "᛬";
-            this.button79.UseVisualStyleBackColor = true;
-            this.button79.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button80
-            // 
-            this.button80.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button80.Location = new System.Drawing.Point(107, 183);
-            this.button80.Name = "button80";
-            this.button80.Size = new System.Drawing.Size(20, 30);
-            this.button80.TabIndex = 78;
-            this.button80.Text = "᛫";
-            this.button80.UseVisualStyleBackColor = true;
-            this.button80.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button81
-            // 
-            this.button81.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button81.Location = new System.Drawing.Point(81, 183);
-            this.button81.Name = "button81";
-            this.button81.Size = new System.Drawing.Size(20, 30);
-            this.button81.TabIndex = 77;
-            this.button81.Text = "ᛪ";
-            this.button81.UseVisualStyleBackColor = true;
-            this.button81.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button82
-            // 
-            this.button82.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button82.Location = new System.Drawing.Point(55, 183);
-            this.button82.Name = "button82";
-            this.button82.Size = new System.Drawing.Size(20, 30);
-            this.button82.TabIndex = 76;
-            this.button82.Text = "ᛩ";
-            this.button82.UseVisualStyleBackColor = true;
-            this.button82.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button83
-            // 
-            this.button83.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button83.Location = new System.Drawing.Point(29, 183);
-            this.button83.Name = "button83";
-            this.button83.Size = new System.Drawing.Size(20, 30);
-            this.button83.TabIndex = 75;
-            this.button83.Text = "ᛨ";
-            this.button83.UseVisualStyleBackColor = true;
-            this.button83.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button84
-            // 
-            this.button84.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button84.Location = new System.Drawing.Point(3, 183);
-            this.button84.Name = "button84";
-            this.button84.Size = new System.Drawing.Size(20, 30);
-            this.button84.TabIndex = 74;
-            this.button84.Text = "ᛧ";
-            this.button84.UseVisualStyleBackColor = true;
-            this.button84.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button15
-            // 
-            this.button15.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button15.Location = new System.Drawing.Point(341, 219);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(20, 30);
-            this.button15.TabIndex = 96;
-            this.button15.Text = "í";
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button16
-            // 
-            this.button16.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button16.Location = new System.Drawing.Point(315, 219);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(20, 30);
-            this.button16.TabIndex = 95;
-            this.button16.Text = "ì";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button31
-            // 
-            this.button31.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button31.Location = new System.Drawing.Point(289, 219);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(20, 30);
-            this.button31.TabIndex = 94;
-            this.button31.Text = "ë";
-            this.button31.UseVisualStyleBackColor = true;
-            this.button31.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button46
-            // 
-            this.button46.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button46.Location = new System.Drawing.Point(263, 219);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(20, 30);
-            this.button46.TabIndex = 93;
-            this.button46.Text = "ê";
-            this.button46.UseVisualStyleBackColor = true;
-            this.button46.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button61
-            // 
-            this.button61.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button61.Location = new System.Drawing.Point(237, 219);
-            this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(20, 30);
-            this.button61.TabIndex = 92;
-            this.button61.Text = "é";
-            this.button61.UseVisualStyleBackColor = true;
-            this.button61.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button85
-            // 
-            this.button85.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button85.Location = new System.Drawing.Point(211, 219);
-            this.button85.Name = "button85";
-            this.button85.Size = new System.Drawing.Size(20, 30);
-            this.button85.TabIndex = 91;
-            this.button85.Text = "è";
-            this.button85.UseVisualStyleBackColor = true;
-            this.button85.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button86
-            // 
-            this.button86.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button86.Location = new System.Drawing.Point(185, 219);
-            this.button86.Name = "button86";
-            this.button86.Size = new System.Drawing.Size(20, 30);
-            this.button86.TabIndex = 90;
-            this.button86.Text = "ç";
-            this.button86.UseVisualStyleBackColor = true;
-            this.button86.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button87
-            // 
-            this.button87.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button87.Location = new System.Drawing.Point(159, 219);
-            this.button87.Name = "button87";
-            this.button87.Size = new System.Drawing.Size(20, 30);
-            this.button87.TabIndex = 89;
-            this.button87.Text = "æ";
-            this.button87.UseVisualStyleBackColor = true;
-            this.button87.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button88
-            // 
-            this.button88.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button88.Location = new System.Drawing.Point(133, 219);
-            this.button88.Name = "button88";
-            this.button88.Size = new System.Drawing.Size(20, 30);
-            this.button88.TabIndex = 88;
-            this.button88.Text = "å";
-            this.button88.UseVisualStyleBackColor = true;
-            this.button88.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button89
-            // 
-            this.button89.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button89.Location = new System.Drawing.Point(107, 219);
-            this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(20, 30);
-            this.button89.TabIndex = 87;
-            this.button89.Text = "ä";
-            this.button89.UseVisualStyleBackColor = true;
-            this.button89.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button90
-            // 
-            this.button90.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button90.Location = new System.Drawing.Point(81, 219);
-            this.button90.Name = "button90";
-            this.button90.Size = new System.Drawing.Size(20, 30);
-            this.button90.TabIndex = 86;
-            this.button90.Text = "ã";
-            this.button90.UseVisualStyleBackColor = true;
-            this.button90.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button91
-            // 
-            this.button91.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button91.Location = new System.Drawing.Point(55, 219);
-            this.button91.Name = "button91";
-            this.button91.Size = new System.Drawing.Size(20, 30);
-            this.button91.TabIndex = 85;
-            this.button91.Text = "â";
-            this.button91.UseVisualStyleBackColor = true;
-            this.button91.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button92
-            // 
-            this.button92.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button92.Location = new System.Drawing.Point(29, 219);
-            this.button92.Name = "button92";
-            this.button92.Size = new System.Drawing.Size(20, 30);
-            this.button92.TabIndex = 84;
-            this.button92.Text = "á";
-            this.button92.UseVisualStyleBackColor = true;
-            this.button92.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button93
-            // 
-            this.button93.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button93.Location = new System.Drawing.Point(3, 219);
-            this.button93.Name = "button93";
-            this.button93.Size = new System.Drawing.Size(20, 30);
-            this.button93.TabIndex = 83;
-            this.button93.Text = "à";
-            this.button93.UseVisualStyleBackColor = true;
-            this.button93.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button94
-            // 
-            this.button94.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button94.Location = new System.Drawing.Point(341, 255);
-            this.button94.Name = "button94";
-            this.button94.Size = new System.Drawing.Size(20, 30);
-            this.button94.TabIndex = 108;
-            this.button94.Text = "ü";
-            this.button94.UseVisualStyleBackColor = true;
-            this.button94.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button95
-            // 
-            this.button95.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button95.Location = new System.Drawing.Point(315, 255);
-            this.button95.Name = "button95";
-            this.button95.Size = new System.Drawing.Size(20, 30);
-            this.button95.TabIndex = 107;
-            this.button95.Text = "û";
-            this.button95.UseVisualStyleBackColor = true;
-            this.button95.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button96
-            // 
-            this.button96.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button96.Location = new System.Drawing.Point(107, 255);
-            this.button96.Name = "button96";
-            this.button96.Size = new System.Drawing.Size(20, 30);
-            this.button96.TabIndex = 101;
-            this.button96.Text = "ò";
-            this.button96.UseVisualStyleBackColor = true;
-            this.button96.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button97
-            // 
-            this.button97.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button97.Location = new System.Drawing.Point(81, 255);
-            this.button97.Name = "button97";
-            this.button97.Size = new System.Drawing.Size(20, 30);
-            this.button97.TabIndex = 100;
-            this.button97.Text = "ñ";
-            this.button97.UseVisualStyleBackColor = true;
-            this.button97.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button98
-            // 
-            this.button98.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button98.Location = new System.Drawing.Point(289, 255);
-            this.button98.Name = "button98";
-            this.button98.Size = new System.Drawing.Size(20, 30);
-            this.button98.TabIndex = 106;
-            this.button98.Text = "ú";
-            this.button98.UseVisualStyleBackColor = true;
-            this.button98.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button99
-            // 
-            this.button99.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button99.Location = new System.Drawing.Point(133, 255);
-            this.button99.Name = "button99";
-            this.button99.Size = new System.Drawing.Size(20, 30);
-            this.button99.TabIndex = 102;
-            this.button99.Text = "ó";
-            this.button99.UseVisualStyleBackColor = true;
-            this.button99.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button100
-            // 
-            this.button100.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button100.Location = new System.Drawing.Point(55, 255);
-            this.button100.Name = "button100";
-            this.button100.Size = new System.Drawing.Size(20, 30);
-            this.button100.TabIndex = 99;
-            this.button100.Text = "ð";
-            this.button100.UseVisualStyleBackColor = true;
-            this.button100.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button101
-            // 
-            this.button101.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button101.Location = new System.Drawing.Point(263, 255);
-            this.button101.Name = "button101";
-            this.button101.Size = new System.Drawing.Size(20, 30);
-            this.button101.TabIndex = 105;
-            this.button101.Text = "ù";
-            this.button101.UseVisualStyleBackColor = true;
-            this.button101.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button102
-            // 
-            this.button102.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button102.Location = new System.Drawing.Point(29, 255);
-            this.button102.Name = "button102";
-            this.button102.Size = new System.Drawing.Size(20, 30);
-            this.button102.TabIndex = 98;
-            this.button102.Text = "ï";
-            this.button102.UseVisualStyleBackColor = true;
-            this.button102.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button103
-            // 
-            this.button103.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button103.Location = new System.Drawing.Point(185, 255);
-            this.button103.Name = "button103";
-            this.button103.Size = new System.Drawing.Size(20, 30);
-            this.button103.TabIndex = 103;
-            this.button103.Text = "õ";
-            this.button103.UseVisualStyleBackColor = true;
-            this.button103.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button104
-            // 
-            this.button104.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button104.Location = new System.Drawing.Point(3, 255);
-            this.button104.Name = "button104";
-            this.button104.Size = new System.Drawing.Size(20, 30);
-            this.button104.TabIndex = 97;
-            this.button104.Text = "î";
-            this.button104.UseVisualStyleBackColor = true;
-            this.button104.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button105
-            // 
-            this.button105.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button105.Location = new System.Drawing.Point(237, 255);
-            this.button105.Name = "button105";
-            this.button105.Size = new System.Drawing.Size(20, 30);
-            this.button105.TabIndex = 104;
-            this.button105.Text = "ø";
-            this.button105.UseVisualStyleBackColor = true;
-            this.button105.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button106
-            // 
-            this.button106.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button106.Location = new System.Drawing.Point(159, 255);
-            this.button106.Name = "button106";
-            this.button106.Size = new System.Drawing.Size(20, 30);
-            this.button106.TabIndex = 109;
-            this.button106.Text = "ô";
-            this.button106.UseVisualStyleBackColor = true;
-            this.button106.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button107
-            // 
-            this.button107.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button107.Location = new System.Drawing.Point(211, 255);
-            this.button107.Name = "button107";
-            this.button107.Size = new System.Drawing.Size(20, 30);
-            this.button107.TabIndex = 110;
-            this.button107.Text = "ö";
-            this.button107.UseVisualStyleBackColor = true;
-            this.button107.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button108
-            // 
-            this.button108.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button108.Location = new System.Drawing.Point(3, 289);
-            this.button108.Name = "button108";
-            this.button108.Size = new System.Drawing.Size(20, 30);
-            this.button108.TabIndex = 111;
-            this.button108.Text = "ý";
-            this.button108.UseVisualStyleBackColor = true;
-            this.button108.Click += new System.EventHandler(this.SpecialCharacterButton_click);
-            // 
-            // button109
-            // 
-            this.button109.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button109.Location = new System.Drawing.Point(29, 289);
-            this.button109.Name = "button109";
-            this.button109.Size = new System.Drawing.Size(20, 30);
-            this.button109.TabIndex = 112;
-            this.button109.Text = "ß";
-            this.button109.UseVisualStyleBackColor = true;
-            this.button109.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // button17
+            // 
+            this.button17.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button17.Location = new System.Drawing.Point(341, 39);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(20, 30);
+            this.button17.TabIndex = 28;
+            this.button17.Text = "ᚻ";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button18
+            // 
+            this.button18.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button18.Location = new System.Drawing.Point(315, 39);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(20, 30);
+            this.button18.TabIndex = 27;
+            this.button18.Text = "ᚺ";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button19
+            // 
+            this.button19.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button19.Location = new System.Drawing.Point(289, 39);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(20, 30);
+            this.button19.TabIndex = 26;
+            this.button19.Text = "ᚹ";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button20
+            // 
+            this.button20.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button20.Location = new System.Drawing.Point(263, 39);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(20, 30);
+            this.button20.TabIndex = 25;
+            this.button20.Text = "ᚸ";
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button21
+            // 
+            this.button21.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button21.Location = new System.Drawing.Point(237, 39);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(20, 30);
+            this.button21.TabIndex = 24;
+            this.button21.Text = "ᚷ";
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button22
+            // 
+            this.button22.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button22.Location = new System.Drawing.Point(211, 39);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(20, 30);
+            this.button22.TabIndex = 23;
+            this.button22.Text = "ᚶ";
+            this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button23
+            // 
+            this.button23.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button23.Location = new System.Drawing.Point(185, 39);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(20, 30);
+            this.button23.TabIndex = 22;
+            this.button23.Text = "ᚵ";
+            this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button24
+            // 
+            this.button24.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button24.Location = new System.Drawing.Point(159, 39);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(20, 30);
+            this.button24.TabIndex = 21;
+            this.button24.Text = "ᚴ";
+            this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button25
+            // 
+            this.button25.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button25.Location = new System.Drawing.Point(133, 39);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(20, 30);
+            this.button25.TabIndex = 20;
+            this.button25.Text = "ᚳ";
+            this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button26
+            // 
+            this.button26.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button26.Location = new System.Drawing.Point(107, 39);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(20, 30);
+            this.button26.TabIndex = 19;
+            this.button26.Text = "ᚲ";
+            this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button27
+            // 
+            this.button27.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button27.Location = new System.Drawing.Point(81, 39);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(20, 30);
+            this.button27.TabIndex = 18;
+            this.button27.Text = "ᚱ";
+            this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button28
+            // 
+            this.button28.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button28.Location = new System.Drawing.Point(55, 39);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(20, 30);
+            this.button28.TabIndex = 17;
+            this.button28.Text = "ᚰ";
+            this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button29
+            // 
+            this.button29.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button29.Location = new System.Drawing.Point(29, 39);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(20, 30);
+            this.button29.TabIndex = 16;
+            this.button29.Text = "ᚯ";
+            this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button30
+            // 
+            this.button30.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button30.Location = new System.Drawing.Point(3, 39);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(20, 30);
+            this.button30.TabIndex = 15;
+            this.button30.Text = "ᚮ";
+            this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button14
+            // 
+            this.button14.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button14.Location = new System.Drawing.Point(341, 3);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(20, 30);
+            this.button14.TabIndex = 13;
+            this.button14.Text = "ᚭ";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button13.Location = new System.Drawing.Point(315, 3);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(20, 30);
+            this.button13.TabIndex = 12;
+            this.button13.Text = "ᚬ";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button12.Location = new System.Drawing.Point(289, 3);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(20, 30);
+            this.button12.TabIndex = 11;
+            this.button12.Text = "ᚫ";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button11.Location = new System.Drawing.Point(263, 3);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(20, 30);
+            this.button11.TabIndex = 10;
+            this.button11.Text = "ᚪ";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button10.Location = new System.Drawing.Point(237, 3);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(20, 30);
+            this.button10.TabIndex = 9;
+            this.button10.Text = "ᚩ";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button9.Location = new System.Drawing.Point(211, 3);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(20, 30);
+            this.button9.TabIndex = 8;
+            this.button9.Text = "ᚨ";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button8.Location = new System.Drawing.Point(185, 3);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(20, 30);
+            this.button8.TabIndex = 7;
+            this.button8.Text = "ᚧ";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button7.Location = new System.Drawing.Point(159, 3);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(20, 30);
+            this.button7.TabIndex = 6;
+            this.button7.Text = "ᚦ";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button6.Location = new System.Drawing.Point(133, 3);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(20, 30);
+            this.button6.TabIndex = 5;
+            this.button6.Text = "ᚥ";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button5.Location = new System.Drawing.Point(107, 3);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(20, 30);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "ᚤ";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button4.Location = new System.Drawing.Point(81, 3);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(20, 30);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "ᚣ";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button3.Location = new System.Drawing.Point(55, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(20, 30);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "ᚢ";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button2.Location = new System.Drawing.Point(29, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(20, 30);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "ᚡ";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(20, 30);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "ᚠ";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.SpecialCharacterButton_click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.bt_delete);
+            this.groupBox3.Controls.Add(this.bt_edit);
+            this.groupBox3.Controls.Add(this.list_pronunciation);
+            this.groupBox3.Controls.Add(this.list_meaning);
+            this.groupBox3.Controls.Add(this.list_origin);
+            this.groupBox3.Controls.Add(this.bt_clear);
+            this.groupBox3.Controls.Add(this.tb_keyword);
+            this.groupBox3.Location = new System.Drawing.Point(420, 12);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(368, 426);
+            this.groupBox3.TabIndex = 1;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "검색";
+            // 
+            // bt_delete
+            // 
+            this.bt_delete.Location = new System.Drawing.Point(269, 387);
+            this.bt_delete.Name = "bt_delete";
+            this.bt_delete.Size = new System.Drawing.Size(93, 30);
+            this.bt_delete.TabIndex = 5;
+            this.bt_delete.Text = "삭제";
+            this.bt_delete.UseVisualStyleBackColor = true;
+            this.bt_delete.Click += new System.EventHandler(this.bt_delete_Click);
+            // 
+            // bt_edit
+            // 
+            this.bt_edit.Location = new System.Drawing.Point(170, 387);
+            this.bt_edit.Name = "bt_edit";
+            this.bt_edit.Size = new System.Drawing.Size(93, 30);
+            this.bt_edit.TabIndex = 5;
+            this.bt_edit.Text = "수정";
+            this.bt_edit.UseVisualStyleBackColor = true;
+            this.bt_edit.Click += new System.EventHandler(this.bt_edit_Click);
+            // 
+            // list_pronunciation
+            // 
+            this.list_pronunciation.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.list_pronunciation.FormattingEnabled = true;
+            this.list_pronunciation.ItemHeight = 20;
+            this.list_pronunciation.Location = new System.Drawing.Point(103, 57);
+            this.list_pronunciation.Name = "list_pronunciation";
+            this.list_pronunciation.Size = new System.Drawing.Size(91, 324);
+            this.list_pronunciation.TabIndex = 8;
+            this.list_pronunciation.SelectedIndexChanged += new System.EventHandler(this.List_SelectedIndexChanged);
+            // 
+            // list_meaning
+            // 
+            this.list_meaning.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.list_meaning.FormattingEnabled = true;
+            this.list_meaning.ItemHeight = 20;
+            this.list_meaning.Location = new System.Drawing.Point(200, 57);
+            this.list_meaning.Name = "list_meaning";
+            this.list_meaning.Size = new System.Drawing.Size(162, 324);
+            this.list_meaning.TabIndex = 7;
+            this.list_meaning.SelectedIndexChanged += new System.EventHandler(this.List_SelectedIndexChanged);
+            // 
+            // list_origin
+            // 
+            this.list_origin.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.list_origin.FormattingEnabled = true;
+            this.list_origin.ItemHeight = 20;
+            this.list_origin.Location = new System.Drawing.Point(6, 57);
+            this.list_origin.Name = "list_origin";
+            this.list_origin.Size = new System.Drawing.Size(91, 324);
+            this.list_origin.TabIndex = 6;
+            this.list_origin.SelectedIndexChanged += new System.EventHandler(this.List_SelectedIndexChanged);
+            // 
+            // bt_clear
+            // 
+            this.bt_clear.Location = new System.Drawing.Point(327, 23);
+            this.bt_clear.Name = "bt_clear";
+            this.bt_clear.Size = new System.Drawing.Size(35, 27);
+            this.bt_clear.TabIndex = 5;
+            this.bt_clear.Text = "×";
+            this.bt_clear.UseVisualStyleBackColor = true;
+            this.bt_clear.Click += new System.EventHandler(this.bt_clear_Click);
+            // 
+            // tb_keyword
+            // 
+            this.tb_keyword.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_keyword.Location = new System.Drawing.Point(6, 24);
+            this.tb_keyword.Name = "tb_keyword";
+            this.tb_keyword.Size = new System.Drawing.Size(315, 30);
+            this.tb_keyword.TabIndex = 5;
+            this.tb_keyword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_keyword.TextChanged += new System.EventHandler(this.tb_keyword_TextChanged);
+            // 
+            // lb_pgmInfo
+            // 
+            this.lb_pgmInfo.AutoSize = true;
+            this.lb_pgmInfo.Font = new System.Drawing.Font("굴림", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lb_pgmInfo.ForeColor = System.Drawing.Color.Silver;
+            this.lb_pgmInfo.Location = new System.Drawing.Point(12, 426);
+            this.lb_pgmInfo.Name = "lb_pgmInfo";
+            this.lb_pgmInfo.Size = new System.Drawing.Size(289, 12);
+            this.lb_pgmInfo.TabIndex = 2;
+            this.lb_pgmInfo.Text = "가지세계 언어 생성기 v0.2 | Made by DoubleDeltas";
             // 
             // FormMain
             // 
@@ -1640,9 +1641,9 @@ namespace BranchWordLangMaker
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -12,7 +12,7 @@ namespace BranchWordLangMaker
 {
     public partial class FormMain : Form
     {
-        public const string VERSION = "0.3.0";
+        public const string VERSION = "0.3.1";
 
         WordDictionary dict;
         WordCreator creator;
@@ -63,7 +63,7 @@ namespace BranchWordLangMaker
 
         private void RefreshList()
         {
-            RefreshList(dict.Item);
+            tb_keyword_TextChanged(null, null);
         }
 
         private void tb_keyword_TextChanged(object sender, EventArgs e)
@@ -125,14 +125,15 @@ namespace BranchWordLangMaker
                 return;
             }
 
-            FormEdit dialog = new FormEdit(
-                list_origin.SelectedItem as string,
-                list_pronunciation.SelectedItem as string,
-                list_meaning.SelectedItem as string);
+            string oldWord = list_origin.SelectedItem as string;
+            string oldPronunciation = list_pronunciation.SelectedItem as string;
+            string oldMeaning = list_meaning.SelectedItem as string;
+
+            FormEdit dialog = new FormEdit(oldWord, oldPronunciation, oldMeaning);
 
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-                dict.Edit(list_origin.SelectedIndex, dialog.Word, dialog.Pronunciation, dialog.Meaning);
+                dict.Edit(oldWord, oldPronunciation, oldMeaning, dialog.Word, dialog.Pronunciation, dialog.Meaning);
                 RefreshList();
             }
         }
@@ -155,9 +156,14 @@ namespace BranchWordLangMaker
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Exclamation);
 
+
+            string oldWord = list_origin.SelectedItem as string;
+            string oldPronunciation = list_pronunciation.SelectedItem as string;
+            string oldMeaning = list_meaning.SelectedItem as string;
+
             if (res == DialogResult.Yes)
             {
-                dict.Delete(list_origin.SelectedIndex);
+                dict.Delete(oldWord, oldPronunciation, oldMeaning);
                 RefreshList();
             }
         }
@@ -174,6 +180,12 @@ namespace BranchWordLangMaker
             tb_word.Focus();
             tb_word.SelectionStart = cursor + 1;
             tb_word.SelectionLength = 0;
+        }
+
+        private void bt_clear_Click(object sender, EventArgs e)
+        {
+            tb_keyword.Text = "";
+            Refresh();
         }
     }
 }

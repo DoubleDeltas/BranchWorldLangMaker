@@ -12,5 +12,12 @@
             this.Pronunciation = pronunciation;
             this.Meaning = meaning;
         }
+
+        public bool Equals(WordTriplet target)
+        {
+            return (this.Word == target.Word)
+                && (this.Pronunciation == target.Pronunciation)
+                && (this.Meaning == target.Meaning);
+        }
     }
 }
